@@ -1,0 +1,6 @@
+{
+  "name": "QHR - Qurinom Solutions Platform",
+  "description": "Enterprise HR management platform and proprietary technology product suite built to solve real-world problems by Qurinom Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-dark: #0B0F19;
+    --brand-card: #131B2E;
+    --brand-subcard: #0E1524;
+    --brand-border: #1F2C47;
+    --brand-coral: #FF6A3D;
+    --brand-cyan: #38BDF8;
+  }
+
+  html, body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #0B0F19;
+    color: #F8FAFC;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+
+  .pb-safe {
+    padding-bottom: max(env(safe-area-inset-bottom, 0px), 16px);
+  }
+  .pt-safe {
+    padding-top: max(env(safe-area-inset-top, 0px), 12px);
+  }
+}
+
+.font-display {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', 'Space Grotesk', monospace;
+}
+
+.shadow-glow-primary {
+  box-shadow: 0 4px 20px -2px rgba(255, 106, 61, 0.35);
+}
+
+.shadow-glow-cyan {
+  box-shadow: 0 4px 20px -2px rgba(56, 189, 248, 0.25);
+}
+
+.shadow-card-subtle {
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.35);
+}
+
+.bg-surface-container {
+  background-color: #131B2E;
+}
+
+.bg-surface-card {
+  background-color: #151F36;
+}
+
+.bg-surface-container-high {
+  background-color: #1E2942;
+}
+
+.bg-surface-container-highest {
+  background-color: #243252;
+}
+
+.border-border {
+  border-color: #1F2C47;
+}
+
+.text-tertiary {
+  color: #38BDF8;
+}
+
+.bg-tertiary {
+  background-color: #38BDF8;
+}
+
+.bg-primary {
+  background-color: #FF6A3D;
+}
+
+.hover\:bg-primary-hover:hover {
+  background-color: #FF5420;
+}
+
+.text-primary {
+  color: #FF6A3D;
+}
+
+.text-on-surface {
+  color: #F8FAFC;
+}
+
+.text-on-surface-variant {
+  color: #94A3B8;
+}
+
+.text-on-surface-muted {
+  color: #64748B;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
